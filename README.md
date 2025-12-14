@@ -3,7 +3,7 @@ THIS WILL HELP YOU CREATE BLOGS USING AI.
 
 Used Render.com for backend server run.
 
-Used github pages for hosting the forntend.
+Used github pages for hosting the frontend.
 
 Used Cors for communication.
 
