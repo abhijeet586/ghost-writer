@@ -14,7 +14,7 @@ export default function App(){
     setLoading(true);//starting the process....flip loading true
     //netwrork req
     try{//attempting to connect to server (if anything goes wrong goes to catch error block) 
-      const response =await fetch('https://ghost-writer-api.onrender.com',{//this sends signal to backend 
+      const response =await fetch('https://ghost-writer-api.onrender.com/api/generate',{//this sends signal to backend 
         method:'POST',//we are sending data to server not just asking to read
         headers:{'Content-type':'application/json'},
         body: JSON.stringify({topic}),// we take topic from user.. convert to JSON string and ship it back to the backend
